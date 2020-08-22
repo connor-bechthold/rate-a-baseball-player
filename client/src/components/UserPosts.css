@@ -1,0 +1,23 @@
+.post {
+	border: 1px black solid;
+	width: 80%;
+	padding: 50px;
+	margin: 0 auto;
+	height: auto;
+	overflow-wrap: break-word;
+	margin-bottom: 25px;
+}
+
+.grid {
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+@media (max-width: 380px) {
+	.edit {
+		width: 125px;
+	}
+	.delete {
+		width: 125px;
+	}
+}

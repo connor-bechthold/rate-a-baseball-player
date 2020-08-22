@@ -1,0 +1,21 @@
+.SubmitPost {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	margin: 0 auto;
+	height: 85vh;
+}
+
+.flex {
+	width: 100%;
+	border: 1px solid black;
+	padding: 3em;
+}
+@media (max-width: 700px) {
+	.SubmitPost {
+		width: 80%;
+		display: block;
+		margin-top: 40px;
+	}
+}

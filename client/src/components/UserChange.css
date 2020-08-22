@@ -1,0 +1,34 @@
+.UserChange {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	height: 60vh;
+}
+
+.delete-user {
+	width: 45%;
+	border: 1px solid black;
+	padding: 3em;
+}
+
+.change-username {
+	width: 45%;
+	border: 1px solid black;
+	padding: 3em;
+}
+
+@media (max-width: 700px) {
+	.UserChange {
+		display: block;
+	}
+	.delete-user {
+		margin: 0 auto;
+		width: 80%;
+		margin-bottom: 30px;
+	}
+	.change-username {
+		margin: 0 auto;
+		width: 80%;
+		margin-bottom: 30px;
+	}
+}

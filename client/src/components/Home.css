@@ -1,0 +1,34 @@
+.Home {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	height: 65vh;
+}
+
+.add-user {
+	width: 45%;
+	border: 1px solid black;
+	padding: 3em;
+}
+
+.sign-in {
+	width: 45%;
+	border: 1px solid black;
+	padding: 3em;
+}
+
+@media (max-width: 875px) {
+	.Home {
+		display: block;
+	}
+	.add-user {
+		margin: 0 auto;
+		width: 80%;
+		margin-bottom: 30px;
+	}
+	.sign-in {
+		margin: 0 auto;
+		width: 80%;
+		margin-bottom: 30px;
+	}
+}
